@@ -55,7 +55,8 @@
     </Window.Resources>
 
 
-    <DockPanel x:Name="principalDockPanel">
+    <DockPanel x:Name="principalDockPanel"
+        Background="{Binding Path=Heroe, Converter={StaticResource conversorColor}}">
         <DockPanel
             Margin="10"
             Height="50"
