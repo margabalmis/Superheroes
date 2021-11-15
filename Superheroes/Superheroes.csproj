@@ -60,6 +60,7 @@
     </ApplicationDefinition>
     <Compile Include="ConvertBool.Color.cs" />
     <Compile Include="ConvertBool.Visibilidad.cs" />
+    <Compile Include="MainWindowVM.cs" />
     <Compile Include="Superheroe.cs" />
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>

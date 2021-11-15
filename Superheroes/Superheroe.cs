@@ -86,7 +86,7 @@ namespace Superheroes
         {
             this.PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
         }
-        
+
         public static List<Superheroe> GetSamples()
         {
             List<Superheroe> ejemplos = new List<Superheroe>();
@@ -101,5 +101,6 @@ namespace Superheroes
 
             return ejemplos;
         }
+
     }
 }
